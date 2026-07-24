@@ -1,0 +1,46 @@
+# Virtual Environment
+backend/venv/
+.venv/
+env/
+venv/
+ENV/
+
+# Python Cache & Compiled files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Node modules & build outputs
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Local configuration & secrets
+.env
+backend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test artifacts / Local databases
+*.db
+*.sqlite
+backend/sample_complaint.pdf
