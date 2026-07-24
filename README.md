@@ -39,8 +39,8 @@ Follow these step-by-step instructions to get the project running on your local 
 ### Step 1: Clone the Repository
 First, clone the repository to your local machine and navigate into the project directory:
 ```bash
-git clone <your-github-repo-url>
-cd <your-repository-folder-name>
+git clone https://github.com/megzz19/AIVOA.git
+cd AIVOA
 ```
 
 ### Step 2: PostgreSQL Database Setup
